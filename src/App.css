@@ -3,24 +3,34 @@
   margin: 0;
   padding: 0;
 }
-
 body{
+  background-color: antiquewhite;
+}
+#root{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 20px;
+
+}
+
+.name{
+  margin: -50px 10px 10px 0;
 }
 
 .row{
+  display: flex;
   padding: 0;
   margin: 0;
 }
 .square{
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   font-size: 15px;
   font-weight: bold;
   background-color: white;
   border: 1px solid black;
-  /* float: left; */
-  margin-top: -3px;
   text-align: center;
   
 }
